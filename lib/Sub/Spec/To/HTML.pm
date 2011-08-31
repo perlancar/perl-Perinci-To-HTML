@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use Log::Any '$log';
 
-use Sub::Spec::Utils; #tmp, for _parse_schema
+use Data::Sah::Util;
 
 require Exporter;
 our @ISA       = qw(Exporter);
@@ -16,7 +16,7 @@ our @EXPORT_OK = qw(spec_to_html);
 our %SPEC;
 
 sub _parse_schema {
-    Sub::Spec::Utils::_parse_schema(@_);
+    Data::Sah::Util::_parse_schema(@_);
 }
 
 $SPEC{spec_to_html} = {
