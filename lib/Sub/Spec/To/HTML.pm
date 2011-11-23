@@ -127,7 +127,7 @@ _
                 $prev_cat = $cat;
             }
 
-            $pod .= "=item * B<$name>".($ah0->{required} ? "*" : "")." => ";
+            $pod .= "=item * B<$name>".($ah0->{req} ? "*" : "")." => ";
             my $type;
             if ($arg->{type} eq 'any') {
                 my @schemas = map {_parse_schema($_)} @{$ah0->{of}};
