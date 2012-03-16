@@ -1,4 +1,10 @@
-Revision history for Sub::Spec::To::HTML
+Revision history for Perinci-To-HTML
+
+0.01     2012-03-16
+
+         First implementation release. Distribution renamed from
+         Sub-Spec-To-HTML to Perinci-To-HTML.
+
 
 0.003    2012-01-20
 
@@ -20,6 +26,3 @@ Revision history for Sub::Spec::To::HTML
 0.00     2011-08-30
 
          First early release, no implementation yet.
-
-
-
