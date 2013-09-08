@@ -1,6 +1,6 @@
 package Perinci::To::HTML;
 
-use 5.010;
+use 5.010001;
 use Log::Any '$log';
 use Moo;
 
@@ -84,7 +84,7 @@ sub doc_gen_version {
 
     $self->start_div("version");
     $self->add_doc_lines(
-        $self->{_meta}{entity_version},
+        $self->{_meta}{entity_v},
     );
     $self->end_div("version");
     $self->add_doc_lines("");
