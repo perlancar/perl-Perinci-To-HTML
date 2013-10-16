@@ -1,28 +1,28 @@
 Revision history for Perinci-To-HTML
 
-0.01     2012-03-16
+0.01     2012-03-16 (SHARYANTO)
 
-         First implementation release. Distribution renamed from
-         Sub-Spec-To-HTML to Perinci-To-HTML.
-
-
-0.003    2012-01-20
-
-         No functional changes. Mark deprecated.
+         - First implementation release. Distribution renamed from
+           Sub-Spec-To-HTML to Perinci-To-HTML.
 
 
-0.002    2011-11-23
+0.003    2012-01-20 (SHARYANTO)
 
-         No functional changes. _parse_schema() is moved from Data::Sah::Util to
-         normalize_schema() in Data::Sah.
-
-
-0.001    2011-10-31
-
-         No functional changes. _parse_schema() is moved from Sub::Spec::Utils
-         to Data::Sah::Util.
+         - No functional changes. Mark deprecated.
 
 
-0.00     2011-08-30
+0.002    2011-11-23 (SHARYANTO)
 
-         First early release, no implementation yet.
+         - No functional changes. _parse_schema() is moved from Data::Sah::Util
+           to normalize_schema() in Data::Sah.
+
+
+0.001    2011-10-31 (SHARYANTO)
+
+         - No functional changes. _parse_schema() is moved from Sub::Spec::Utils
+           to Data::Sah::Util.
+
+
+0.00     2011-08-30 (SHARYANTO)
+
+         - First early release, no implementation yet.
