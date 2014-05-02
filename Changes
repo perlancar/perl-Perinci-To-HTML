@@ -1,5 +1,12 @@
 Revision history for Perinci-To-HTML
 
+0.02     2014-05-02 (SHARYANTO)
+
+         - No functional changes.
+
+         - Switch from Locale::Maketext to Locale::TextDomain.
+
+
 0.01     2012-03-16 (SHARYANTO)
 
          - First implementation release. Distribution renamed from

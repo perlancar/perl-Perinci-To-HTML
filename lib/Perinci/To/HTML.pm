@@ -65,7 +65,7 @@ sub doc_gen_summary {
 
     $self->start_div("name");
     $self->add_doc_lines(
-        $self->h(0, __("Name"))),
+        $self->h(0, __("Name")),
         $self->doc_parse->{name},
     );
     $self->end_div("name");
