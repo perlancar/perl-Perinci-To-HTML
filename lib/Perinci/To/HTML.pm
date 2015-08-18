@@ -1,14 +1,15 @@
 package Perinci::To::HTML;
 
+# DATE
+# VERSION
+
 use 5.010001;
-use Log::Any '$log';
+use Log::Any::IfLOG '$log';
 use Moo;
 
 use Locale::TextDomain::UTF8 'Perinci-To-HTML';
 
 extends 'Perinci::To::PackageBase';
-
-# VERSION
 
 has heading_level => (is => 'rw', default=>sub{1});
 
